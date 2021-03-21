@@ -1,0 +1,9 @@
+20 //Posicion de memoria que reservamos
+ADD 8 0 //Añadimos el primer numero
+WRITE 100 //Escribimos en la direccion de memoria 100 lo que haya en el registro acumulador
+MEMADD 1 100 //Añade y suma 1 a la direccion de memoria
+WRITE 100
+INC -18 //Resta -18 para hacer el bucle
+ZJUMP 2 //Si es 0, hemos llegado al 18 acaba
+JUMP -4 //Si no es 18 continuamos
+HALT 

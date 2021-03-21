@@ -1,0 +1,200 @@
+36 Messages Loaded
+User program list:
+	Program [program-Final-V1-1] with arrival time [0]
+	Program [program-Final-V1-2] with arrival time [0]
+	Program [program-Final-V1-3] with arrival time [0]
+Asserts file unavailable
+Process [3] created from program [SystemIdleProcess]
+New process [3 - SystemIdleProcess] moving to the [NEW] state
+Process [3 - SystemIdleProcess] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER:
+	DAEMONS: [3,100]
+Process [0] created from program [program-Final-V1-1]
+New process [0 - program-Final-V1-1] moving to the [NEW] state
+Process [0 - program-Final-V1-1] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101]
+	DAEMONS: [3,100]
+Process [1] created from program [program-Final-V1-2]
+New process [1 - program-Final-V1-2] moving to the [NEW] state
+Process [1 - program-Final-V1-2] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101], [1,120]
+	DAEMONS: [3,100]
+Process [2] created from program [program-Final-V1-3]
+New process [2 - program-Final-V1-3] moving to the [NEW] state
+Process [2 - program-Final-V1-3] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101], [1,120], [2,101]
+	DAEMONS: [3,100]
+Process [0 - program-Final-V1-1] moving from the [READY] state to the [EXECUTING] state
+New Tick (1)
+{79 000 000} y 0 0 (PC: 0, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (2)
+{73 000 004} s 0 4 (PC: 1, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (3)
+{69 001 000} i 1 0 (PC: 2, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (4)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (5)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 1, PSW: 0080 [--------X-------])
+New Tick (6)
+Process [0 - program-Final-V1-1] will transfer the control of the processor to process [2 - ]
+Process [0 - program-Final-V1-1] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101], [1,120]
+	DAEMONS: [3,100]
+Process [2 - program-Final-V1-3] moving from the [READY] state to the [EXECUTING] state
+New Tick (7)
+{79 000 000} y 0 0 (PC: 0, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (8)
+{61 004 000} a 4 0 (PC: 1, Accumulator: 4, PSW: 0000 [----------------])
+New Tick (9)
+{69 801 000} i -1 0 (PC: 2, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (10)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (11)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 3, PSW: 0080 [--------X-------])
+New Tick (12)
+Process [2 - program-Final-V1-3] will transfer the control of the processor to process [0 - ]
+Process [2 - program-Final-V1-3] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [2,101], [1,120]
+	DAEMONS: [3,100]
+Process [0 - program-Final-V1-1] moving from the [READY] state to the [EXECUTING] state
+New Tick (13)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (14)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (15)
+{6A 803 000} j -3 0 (PC: 1, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (16)
+{69 001 000} i 1 0 (PC: 2, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (17)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (18)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 2, PSW: 0080 [--------X-------])
+New Tick (19)
+Process [0 - program-Final-V1-1] will transfer the control of the processor to process [2 - ]
+Process [0 - program-Final-V1-1] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101], [1,120]
+	DAEMONS: [3,100]
+Process [2 - program-Final-V1-3] moving from the [READY] state to the [EXECUTING] state
+New Tick (20)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (21)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (22)
+{6A 803 000} j -3 0 (PC: 1, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (23)
+{69 801 000} i -1 0 (PC: 2, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (24)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (25)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 2, PSW: 0080 [--------X-------])
+New Tick (26)
+Process [2 - program-Final-V1-3] will transfer the control of the processor to process [0 - ]
+Process [2 - program-Final-V1-3] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [2,101], [1,120]
+	DAEMONS: [3,100]
+Process [0 - program-Final-V1-1] moving from the [READY] state to the [EXECUTING] state
+New Tick (27)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (28)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (29)
+{6A 803 000} j -3 0 (PC: 1, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (30)
+{69 001 000} i 1 0 (PC: 2, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (31)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (32)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 3, PSW: 0080 [--------X-------])
+New Tick (33)
+Process [0 - program-Final-V1-1] will transfer the control of the processor to process [2 - ]
+Process [0 - program-Final-V1-1] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101], [1,120]
+	DAEMONS: [3,100]
+Process [2 - program-Final-V1-3] moving from the [READY] state to the [EXECUTING] state
+New Tick (34)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (35)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (36)
+{6A 803 000} j -3 0 (PC: 1, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (37)
+{69 801 000} i -1 0 (PC: 2, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (38)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (39)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 1, PSW: 0080 [--------X-------])
+New Tick (40)
+Process [2 - program-Final-V1-3] will transfer the control of the processor to process [0 - ]
+Process [2 - program-Final-V1-3] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [2,101], [1,120]
+	DAEMONS: [3,100]
+Process [0 - program-Final-V1-1] moving from the [READY] state to the [EXECUTING] state
+New Tick (41)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (42)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (43)
+{6A 803 000} j -3 0 (PC: 1, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (44)
+{69 001 000} i 1 0 (PC: 2, Accumulator: 4, PSW: 0000 [----------------])
+New Tick (45)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 4, PSW: 0000 [----------------])
+New Tick (46)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 4, PSW: 0080 [--------X-------])
+New Tick (47)
+Process [0 - program-Final-V1-1] will transfer the control of the processor to process [2 - ]
+Process [0 - program-Final-V1-1] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101], [1,120]
+	DAEMONS: [3,100]
+Process [2 - program-Final-V1-3] moving from the [READY] state to the [EXECUTING] state
+New Tick (48)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (49)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (50)
+{6A 803 000} j -3 0 (PC: 1, Accumulator: 1, PSW: 0000 [----------------])
+New Tick (51)
+{69 801 000} i -1 0 (PC: 2, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (52)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (53)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 0, PSW: 0082 [--------X-----Z-])
+New Tick (54)
+Process [2 - program-Final-V1-3] will transfer the control of the processor to process [0 - ]
+Process [2 - program-Final-V1-3] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [2,101], [1,120]
+	DAEMONS: [3,100]
+Process [0 - program-Final-V1-1] moving from the [READY] state to the [EXECUTING] state
+New Tick (55)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 4, PSW: 0000 [----------------])
+New Tick (56)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 4, PSW: 0000 [----------------])
+New Tick (57)
+{6A 803 000} j -3 0 (PC: 1, Accumulator: 4, PSW: 0000 [----------------])
+New Tick (58)
+{69 001 000} i 1 0 (PC: 2, Accumulator: 5, PSW: 0000 [----------------])
+New Tick (59)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 5, PSW: 0000 [----------------])
+New Tick (60)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 5, PSW: 0080 [--------X-------])
+New Tick (61)
+Process [0 - program-Final-V1-1] will transfer the control of the processor to process [2 - ]
+Process [0 - program-Final-V1-1] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,101], [1,120]
+	DAEMONS: [3,100]
+Process [2 - program-Final-V1-3] moving from the [READY] state to the [EXECUTING] state
+New Tick (62)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 0, PSW: 0002 [--------------Z-])

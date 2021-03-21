@@ -1,0 +1,121 @@
+36 Messages Loaded
+User program list:
+	Program [prog-V1-Yield1] with arrival time [0]
+	Program [prog-V1-Yield2] with arrival time [0]
+	Program [prog-V1-Yield3] with arrival time [0]
+Asserts file unavailable
+Process [3] created from program [SystemIdleProcess]
+New process [3 - SystemIdleProcess] moving to the [NEW] state
+Process [3 - SystemIdleProcess] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER:
+ 	DAEMONS: [3,100]
+Process [0] created from program [prog-V1-Yield1]
+New process [0 - prog-V1-Yield1] moving to the [NEW] state
+Process [0 - prog-V1-Yield1] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,80]
+	DAEMONS: [3,100]
+Process [1] created from program [prog-V1-Yield2]
+New process [1 - prog-V1-Yield2] moving to the [NEW] state
+Process [1 - prog-V1-Yield2] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,80], [1,80]
+	DAEMONS: [3,100]
+Process [2] created from program [prog-V1-Yield3]
+New process [2 - prog-V1-Yield3] moving to the [NEW] state
+Process [2 - prog-V1-Yield3] moving from the [NEW] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,80], [1,80], [2,80]
+	DAEMONS: [3,100]
+Process [0 - prog-V1-Yield1] moving from the [READY] state to the [EXECUTING] state
+New Tick (1)
+{79 000 000} y 0 0 (PC: 0, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (2)
+{61 004 005} a 4 5 (PC: 1, Accumulator: 9, PSW: 0000 [----------------])
+New Tick (3)
+{69 801 000} i -1 0 (PC: 2, Accumulator: 8, PSW: 0000 [----------------])
+New Tick (4)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 8, PSW: 0000 [----------------])
+New Tick (5)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 8, PSW: 0080 [--------X-------])
+New Tick (6)
+Process [0 - prog-V1-Yield1] will transfer the control of the processor to process [2 - prog-V1-Yield3]
+Process [0 - prog-V1-Yield1] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [1,80], [0,80]
+	DAEMONS: [3,100]
+Process [2 - prog-V1-Yield3] moving from the [READY] state to the [EXECUTING] state
+New Tick (7)
+{79 000 000} y 0 0 (PC: 0, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (8)
+{61 804 007} a -4 7 (PC: 1, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (9)
+{74 004 000} t 4 0 (PC: 2, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (10)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 3, PSW: 0080 [--------X-------])
+New Tick (11)
+Process [2 - prog-V1-Yield3] will transfer the control of the processor to process [1 - prog-V1-Yield2]
+Process [2 - prog-V1-Yield3] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [0,80], [2,80]
+	DAEMONS: [3,100]
+Process [1 - prog-V1-Yield2] moving from the [READY] state to the [EXECUTING] state
+New Tick (12)
+{79 000 000} y 0 0 (PC: 0, Accumulator: 0, PSW: 0002 [--------------Z-])
+New Tick (13)
+{61 000 002} a 0 2 (PC: 1, Accumulator: 2, PSW: 0000 [----------------])
+New Tick (14)
+{69 001 000} i 1 0 (PC: 2, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (15)
+{74 004 000} t 4 0 (PC: 3, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (16)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 3, PSW: 0080 [--------X-------])
+New Tick (17)
+Process [1 - prog-V1-Yield2] will transfer the control of the processor to process [0 - prog-V1-Yield1]
+Process [1 - prog-V1-Yield2] moving from the [EXECUTING] state to the [READY] state
+Ready-to-run processes queue:
+	USER: [2,80], [1,80]
+	DAEMONS: [3,100]
+Process [0 - prog-V1-Yield1] moving from the [READY] state to the [EXECUTING] state
+New Tick (18)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 8, PSW: 0000 [----------------])
+New Tick (19)
+{7A 805 000} z -5 0 (PC: 4, Accumulator: 8, PSW: 0000 [----------------])
+New Tick (20)
+{74 003 000} t 3 0 (PC: 5, Accumulator: 8, PSW: 0000 [----------------])
+New Tick (21)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 8, PSW: 0080 [--------X-------])
+New Tick (22)
+Process [0 - prog-V1-Yield1] has requested to terminate
+Process [0 - prog-V1-Yield1] moving from the [EXECUTING] state to the [EXIT] state
+Process [2 - prog-V1-Yield3] moving from the [READY] state to the [EXECUTING] state
+New Tick (23)
+{79 000 000} y 0 0 (PC: 2, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (24)
+{7A 005 000} z 5 0 (PC: 3, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (25)
+{74 003 000} t 3 0 (PC: 4, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (26)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 3, PSW: 0080 [--------X-------])
+New Tick (27)
+Process [2 - prog-V1-Yield3] has requested to terminate
+Process [2 - prog-V1-Yield3] moving from the [EXECUTING] state to the [EXIT] state
+Process [1 - prog-V1-Yield2] moving from the [READY] state to the [EXECUTING] state
+New Tick (28)
+{79 000 000} y 0 0 (PC: 3, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (29)
+{7A 002 000} z 2 0 (PC: 4, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (30)
+{74 003 000} t 3 0 (PC: 5, Accumulator: 3, PSW: 0000 [----------------])
+New Tick (31)
+{6F 002 000} o 2 0 (PC: 241, Accumulator: 3, PSW: 0080 [--------X-------])
+New Tick (32)
+Process [1 - prog-V1-Yield2] has requested to terminate
+Process [1 - prog-V1-Yield2] moving from the [EXECUTING] state to the [EXIT] state
+Process [3 - SystemIdleProcess] moving from the [READY] state to the [EXECUTING] state
+New Tick (33)
+{79 000 000} y 0 0 (PC: 183, Accumulator: 0, PSW: 0082 [--------X-----Z-])
+New Tick (34)
+{68 000 000} h 0 0 (PC: 183, Accumulator: 0, PSW: 0083 [--------X-----ZS])
+END of the simulation
